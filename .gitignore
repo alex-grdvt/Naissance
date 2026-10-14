@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local data and generated output
+naissance.db
+naissance.db-shm
+naissance.db-wal
+.cache/
+entry_diagnostics.csv
+ticker_sweep_results.csv
+sp500_screen.csv
+*.log
+
+# Secrets and editor files
+.env
+.vscode/
+.idea/
+.DS_Store
