@@ -1,4 +1,5 @@
 # Naissance
+<<<<<<< HEAD
 
 Naissance is a regime-adaptive quantitative equity trading system written in Python. It models market regimes with a Hidden Markov Model, scores each ticker with regime-weighted technical and factor-adjusted signals, sizes positions with Kelly-based and diversification rules, and records every decision in a SQLite database. It includes a walk-forward portfolio backtester with benchmark comparisons.
 
@@ -94,3 +95,6 @@ python diagnose_trades.py                            # diagnostics for stored ba
 ## Data sources
 
 Prices and news headlines come from Yahoo Finance (`yfinance`) and Google News (`gnews`), macro series from FRED, and factor returns from the Kenneth French data library. Headlines are scored with ProsusAI/FinBERT.
+=======
+First quant model
+>>>>>>> 0037a210bb2793bc60f843c7471017fd10d627c7
